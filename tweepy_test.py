@@ -1,4 +1,4 @@
-import tweepy
+﻿import tweepy
 
 consumer_key='uYBQFBErHqOYxm9i4G89cZ0lp'
 consumer_secret='BoPD7RV5G0DbnZFHECtxUXmMaqsolFvqQgHOgMkhTMsi0Q2gbn'
@@ -28,3 +28,6 @@ for result in search_results:
         print(user+"を「いいね」をしました\n\n")
     except:
         print(user+"はもう[いいね]してます\n\n")
+変更
+
+test
