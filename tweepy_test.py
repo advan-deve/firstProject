@@ -31,7 +31,19 @@ for result in search_results:
 変更
 
 test
+<<<<<<< HEAD
 
 oraoraoraoraoraoraora
+<<<<<<< HEAD
 
 kakkakkakak
+=======
+=======
+ßテスト
+>>>>>>> 362041c567957ec6bf2bdc40a677b338c15df547
+kakakkakakaka
+
+
+じょじょりおん
+oooooooooooooooooooooooooooooooo
+>>>>>>> f77e9453af0ca173e071d694d8cf69ef676a8ebd
