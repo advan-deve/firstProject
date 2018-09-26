@@ -1,4 +1,4 @@
-﻿import tweepy
+import tweepy
 
 consumer_key='uYBQFBErHqOYxm9i4G89cZ0lp'
 consumer_secret='BoPD7RV5G0DbnZFHECtxUXmMaqsolFvqQgHOgMkhTMsi0Q2gbn'
@@ -31,3 +31,4 @@ for result in search_results:
 変更
 
 test
+ßテスト
