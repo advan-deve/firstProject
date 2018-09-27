@@ -1,9 +1,10 @@
 # firstProject
 
 
-test
+メンバー
+　・オダギリ
+　・カジハラ
+　・トミナガ
 
-
-tominaga
-
-test2
+フォルダ「FXサイト」
+　→　FX用WEBサイト
