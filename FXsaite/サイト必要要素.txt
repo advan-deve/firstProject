@@ -1,13 +1,17 @@
 
 ■サイトの必要要素
 
-・ソーシャルボタン
-　twitter
-  Line
-  facebookシェア
+▼ページ
+・TOP
+　News
+　動画
+　ダウンロードリンク
+  ソーシャルボタン
+　　twitter
+  　Line
+  　facebookシェア
+  Line＠の宣伝
+　
+・利用規約
 
-・ダウンロードリンク
-
-・動画
-
-・Line＠の宣伝
+・お問い合わせ
