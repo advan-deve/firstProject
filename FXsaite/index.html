@@ -17,7 +17,7 @@
 <h3 id="test1">FXを始めよう</h3>
 <ul>
 <li>FXとか外貨為替のことです。</li>
-<li id="list">みんなの癒し系冨永</li>
+<li id="tomi">みんなの癒し系冨永</li>
 <li>インサイダー取引をすることで１００％勝つことができます。</li>
 <li>与沢翼が最終段階です。</li>
 </ul>
@@ -48,11 +48,14 @@
 <script type="text/javascript">
 // オダギリ担当
 $('#test1,#test2,#test3,#test4').hide();
-
 $('#open').click(function(){
   $('#test1,#test2,#test3,#test4').toggle(500);
 });
-
+$(function(){
+  setInterval(function(){
+    $('#tomi').fadeOut(500).fadeIn(500);
+  },1000)
+});
 </script>
   </body>
 </html>
