@@ -36,18 +36,28 @@
 <li>ワイリーをはめ技で倒す</li>
 </ul>
 <h3 id="test4">口座解説</h3>
-<ul>
-<li>闇金から２００万円借ります</li>
-<li>六本木でやっているセミナーに参加します（参加費２０万）</li>
-<li>FX口座解説します入金</li>
-<li>１８０万円</li>
 
-</ul>
 <input type="button" id="open" value="表示">
-
+<input type="button" id="chenge" value="変更">
+<div id="pop">
+  <h4>ポップビュー</h4>
+  <ul>
+    <li>闇金から２００万円借ります</li>
+    <li>六本木でやっているセミナーに参加します（参加費２０万）</li>
+    <li>FX口座解説します入金</li>
+    <li>１８０万円</li>
+  </ul>
+  <input type="button" id="close" value="閉じる">
+</div>
 
 <script type="text/javascript">
-// オダギリ担当
+$('#pop').hide();
+$('#chenge').click(function(){
+  $('#pop').show();
+});
+$('#close').click(function(){
+  $('#pop').hide();
+});
 $('#test1,#test2,#test3,#test4').hide();
 $('#open').click(function(){
   $('#test1,#test2,#test3,#test4').toggle(500);
