@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Webサイトのタイトル</title>
+    <style>
+    /* 梶原担当 */
+    h3{font-size:20px;
+      color:red;}
+    .blue .green {
+      width: 2rem;
+      height: 2rem;
+      margin: .5rem;
+    }
+    </style>
+  </head>
+
+
+  <body>
+
+    <!-- 冨永担当 -->
+<h3 id="test1">FXを始めよう</h3>
+<ul>
+<li>FXとか外貨為替のことです。</li>
+<li id="tomi">みんなの癒し系冨永</li>
+<li>インサイダー取引をすることで１００％勝つことができます。</li>
+<li>与沢翼が最終段階です。</li>
+</ul>
+<h3 id="test2">用語の理解</h3>
+<ul>
+<li>セミナーに行きましょう</li>
+<li>アプリで勉強しよう</li>
+<li>外国の取引所のほうが金利が良い</li>
+</ul>
+<h3 id="test3">デモトレード</h3>
+<ul>
+<li>ロックマンを始めよう</li>
+<li>ウッドマンを倒すと次から簡単になる</li>
+<li>エアーマンを倒す</li>
+<li>ワイリーをはめ技で倒す</li>
+</ul>
+<h3 id="test4">口座解説</h3>
+<img src="./saru-Aa.png" id="pen"/>
+<input type="button" id="open" value="表示">
+<input type="button" id="chenge" value="変更">
+<div id="pop">
+  <h4>ポップビュー</h4>
+  <ul>
+    <li>闇金から２００万円借ります</li>
+    <li>六本木でやっているセミナーに参加します（参加費２０万）</li>
+    <li>FX口座解説します入金</li>
+    <li>１８０万円預金する</li>
+  </ul>
+  <input type="button" id="close" value="閉じる">
+</div>
+
+<script type="text/javascript">
+$('#pop').hide();
+$('#chenge').click(function(){
+  $('#pop').css({
+    'backgroundColor': '#FFFFFF'
+  });
+  $('#pop').show();
+});
+$('#close').click(function(){
+  $('#pop').hide();
+});
+$('#test1,#test2,#test3,#test4').hide();
+$('#open').click(function(){
+  $('#test1,#test2,#test3,#test4').toggle(500);
+});
+$(function(){
+  setInterval(function(){
+    $('#tomi').fadeOut(500).fadeIn(500);
+  },1000)
+});
+$("body").animate({
+    'backgroundColor': '#4DD63E',
+  }, 2000);
+</script>
+  </body>
+</html>
